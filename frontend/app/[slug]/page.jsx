@@ -1,5 +1,5 @@
 import MarqueeComponent from "@/components/common/Marquee";
-import Footer from "@/components/Footers/Footer";
+import Footer from "@/components/footers/Footer";
 import Header from "@/components/headers/Header";
 
 const Page = async ({ params }) => {
