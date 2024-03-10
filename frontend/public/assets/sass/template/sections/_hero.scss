@@ -1,0 +1,155 @@
+/* Hero Global ---------------------------------- */
+.hero-wrapper {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.hero-thumb-group {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: flex-end;
+  margin-top: 80px;
+  img {
+    border-radius: 50%;
+    border: 3px solid $theme-color;
+    width: 60px;
+  }
+  .img2 {
+    margin-left: -24px;
+  }
+  .hero-counter {
+    height: 60px;
+    width: 60px;
+    line-height: 54px;
+    border-radius: 50%;
+    background: $title-color;
+    border: 3px solid $theme-color;
+    margin-left: -24px;
+    text-align: center;
+    color: $theme-color;
+    font-size: 14px;
+    font-family: $title-font;
+    flex: none;
+  }
+  p {
+    margin-bottom: 0;
+    max-width: 196px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: $title-font;
+    color: $title-color;
+    text-align: left;
+    margin-left: 16px;
+    text-transform: uppercase;
+    letter-spacing: -0.14px;
+  }
+}
+.hero-year-tag {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 254px;
+  img {
+    flex: none;
+  }
+  h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+}
+/* Hero  ---------------------------------- */
+.hero-subtitle {
+  font-size: 30px;
+  font-family: $title-font;
+  font-weight: 400;
+  color: $theme-color;
+  display: block;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+.hero-title {
+  margin-bottom: 0;
+  color: $title-color;
+  font-weight: 600;
+  letter-spacing: -3px;
+  font-size: 120px;
+}
+.hero-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+.hero-style1 {
+  position: relative;
+  z-index: 6;
+  padding: 185px 0 80px;
+  .hero-title {
+    font-weight: 600;
+    letter-spacing: -3.6px;
+  }
+  .hero-text {
+    margin-top: 23px;
+  }
+  .btn-group {
+    margin-top: 30px;
+  }
+}
+@include ml {
+  .hero-title {
+    font-size: 100px;
+  }
+}
+@include xl {
+  .hero-title {
+    font-size: 90px;
+  }
+  .hero-text {
+    font-size: 16px;
+  }
+}
+@include lg {
+  .hero-style1 {
+    padding: 155px 0 80px;
+  }
+  .hero-title {
+    font-size: 80px;
+  }
+}
+@include md {
+  .hero-title {
+    font-size: 70px;
+  }
+  .hero-style1 .hero-year-tag {
+    margin-top: 40px;
+  }
+  .hero-style1 .hero-title {
+    letter-spacing: -1.2px;
+  }
+}
+@include sm {
+  .hero-style1 {
+    padding: 140px 0 80px;
+  }
+  .hero-title {
+    font-size: 56px;
+  }
+}
+@include xs {
+  .hero-style1 .hero-title {
+    letter-spacing: normal;
+  }
+  .hero-title {
+    font-size: 39px;
+    letter-spacing: normal;
+  }
+}
+@include vxs {
+  .hero-title {
+    font-size: 34px;
+  }
+}
