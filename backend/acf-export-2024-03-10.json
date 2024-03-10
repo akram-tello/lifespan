@@ -1,0 +1,725 @@
+[
+    {
+        "key": "group_65eb39b1276e6",
+        "title": "Features: Feature Fields",
+        "fields": [
+            {
+                "key": "field_65eb39b13da2a",
+                "label": "Sub Title",
+                "name": "title",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_65eb3a523da2b",
+                "label": "Summary",
+                "name": "summary",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_65eb3ab33da2c",
+                "label": "Large Image",
+                "name": "large_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Recommended size is 308x380",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_65eb3c63febb2",
+                "label": "Features Categories",
+                "name": "features_categories",
+                "aria-label": "",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "feature-category",
+                "add_term": 1,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "object",
+                "field_type": "select",
+                "allow_null": 0,
+                "bidirectional": 0,
+                "multiple": 0,
+                "bidirectional_target": []
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "feature"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 1
+    },
+    {
+        "key": "group_65ed4b9a79a45",
+        "title": "Home Page: About Section",
+        "fields": [
+            {
+                "key": "field_65ed4b9aa9937",
+                "label": "About title",
+                "name": "about_title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Monitoring Your Daily Life",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65ed4c1db55a4",
+                "label": "About text",
+                "name": "about_text",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Our software platform and custom development allow healthcare institutions to create comprehensive cross-platform solutions that ensure positive patient experiences.",
+                "tabs": "text",
+                "media_upload": 1,
+                "toolbar": "full",
+                "delay": 0
+            },
+            {
+                "key": "field_65ed4c54b0640",
+                "label": "About btn",
+                "name": "about_btn",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array"
+            },
+            {
+                "key": "field_65ed4d14ef615",
+                "label": "About image",
+                "name": "about_image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 1
+    },
+    {
+        "key": "group_65ec968b1e9d8",
+        "title": "Home Page: Hero section",
+        "fields": [
+            {
+                "key": "field_65ed330c3fc74",
+                "label": "Hero title _left",
+                "name": "hero_title_left",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "this is the hero title animated starting from left side",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": "hero_title_left"
+                },
+                "default_value": "Feast Your Eyes",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65ed33d93fc75",
+                "label": "Hero title _right",
+                "name": "hero_title_right",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "this is the hero title animated starting from right side",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": "hero_title_right"
+                },
+                "default_value": "on the Details",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65ed37dcd23a5",
+                "label": "Hero text",
+                "name": "hero_text",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "This is Hero Text shown under the title",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": "hero_text"
+                },
+                "default_value": "",
+                "tabs": "text",
+                "media_upload": 0,
+                "toolbar": "full",
+                "delay": 0
+            },
+            {
+                "key": "field_65ed3d636c619",
+                "label": "Hero button CTA",
+                "name": "hero_btn",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 1
+    },
+    {
+        "key": "group_65ed7eeb48c83",
+        "title": "Testimonials",
+        "fields": [
+            {
+                "key": "field_65ed7f0b20515",
+                "label": "name",
+                "name": "name",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65ed7f2120516",
+                "label": "designation",
+                "name": "designation",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65ed7eeb20514",
+                "label": "text",
+                "name": "text",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "testimonial"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 1
+    },
+    {
+        "key": "group_65eb0bc6ebdb2",
+        "title": "Theme Option: Footer",
+        "fields": [
+            {
+                "key": "field_65eb0bc744bc0",
+                "label": "Footer Title",
+                "name": "footer-title",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65eb106f333f8",
+                "label": "Footer Text",
+                "name": "footer-text",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_65eb10c8333f9",
+                "label": "Footer Link",
+                "name": "footer_link",
+                "aria-label": "",
+                "type": "link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 1
+    },
+    {
+        "key": "taxonomy_65eb3bafa361f",
+        "title": "Features Categories",
+        "menu_order": 0,
+        "active": true,
+        "taxonomy": "feature-category",
+        "object_type": [
+            "feature"
+        ],
+        "advanced_configuration": 1,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Features Categories",
+            "singular_name": "Feature Category",
+            "menu_name": "Features Categories",
+            "all_items": "All Features Categories",
+            "edit_item": "Edit Feature Category",
+            "view_item": "View Feature Category",
+            "update_item": "Update Feature Category",
+            "add_new_item": "Add New Feature Category",
+            "new_item_name": "New Feature Category Name",
+            "parent_item": "Parent Feature Category",
+            "parent_item_colon": "Parent Feature Category:",
+            "search_items": "Search Features Categories",
+            "most_used": "",
+            "not_found": "No features categories found",
+            "no_terms": "No features categories",
+            "name_field_description": "",
+            "slug_field_description": "",
+            "parent_field_description": "",
+            "desc_field_description": "",
+            "filter_by_item": "Filter by feature category",
+            "items_list_navigation": "Features Categories list navigation",
+            "items_list": "Features Categories list",
+            "back_to_items": "← Go to features categories",
+            "item_link": "Feature Category Link",
+            "item_link_description": "A link to a feature category"
+        },
+        "description": "",
+        "capabilities": {
+            "manage_terms": "manage_categories",
+            "edit_terms": "manage_categories",
+            "delete_terms": "manage_categories",
+            "assign_terms": "edit_posts"
+        },
+        "public": 1,
+        "publicly_queryable": 1,
+        "hierarchical": 1,
+        "show_ui": 1,
+        "show_in_menu": 1,
+        "show_in_nav_menus": 1,
+        "show_in_rest": 1,
+        "rest_base": "Features-categories",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Terms_Controller",
+        "show_tagcloud": 1,
+        "show_in_quick_edit": 1,
+        "show_admin_column": 1,
+        "rewrite": {
+            "permalink_rewrite": "taxonomy_key",
+            "with_front": "1",
+            "rewrite_hierarchical": "0"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "default_term": {
+            "default_term_enabled": "0"
+        },
+        "sort": 0,
+        "meta_box": "default",
+        "meta_box_cb": "",
+        "meta_box_sanitize_cb": ""
+    },
+    {
+        "key": "post_type_65eb38f370d32",
+        "title": "Features",
+        "menu_order": 0,
+        "active": true,
+        "post_type": "feature",
+        "advanced_configuration": true,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Features",
+            "singular_name": "Feature",
+            "menu_name": "Features",
+            "all_items": "All Features",
+            "edit_item": "Edit Feature",
+            "view_item": "View Feature",
+            "view_items": "View Features",
+            "add_new_item": "Add New Feature",
+            "add_new": "Add New Feature",
+            "new_item": "New Feature",
+            "parent_item_colon": "Parent Feature:",
+            "search_items": "Search Features",
+            "not_found": "No features found",
+            "not_found_in_trash": "No features found in Trash",
+            "archives": "Feature Archives",
+            "attributes": "Feature Attributes",
+            "featured_image": "",
+            "set_featured_image": "",
+            "remove_featured_image": "",
+            "use_featured_image": "",
+            "insert_into_item": "Insert into feature",
+            "uploaded_to_this_item": "Uploaded to this feature",
+            "filter_items_list": "Filter features list",
+            "filter_by_date": "Filter features by date",
+            "items_list_navigation": "Features list navigation",
+            "items_list": "Features list",
+            "item_published": "Feature published.",
+            "item_published_privately": "Feature published privately.",
+            "item_reverted_to_draft": "Feature reverted to draft.",
+            "item_scheduled": "Feature scheduled.",
+            "item_updated": "Feature updated.",
+            "item_link": "Feature Link",
+            "item_link_description": "A link to a feature."
+        },
+        "description": "",
+        "public": true,
+        "hierarchical": false,
+        "exclude_from_search": false,
+        "publicly_queryable": true,
+        "show_ui": true,
+        "show_in_menu": true,
+        "admin_menu_parent": "",
+        "show_in_admin_bar": true,
+        "show_in_nav_menus": true,
+        "show_in_rest": true,
+        "rest_base": "features",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Posts_Controller",
+        "menu_position": 2,
+        "menu_icon": "dashicons-image-filter",
+        "rename_capabilities": false,
+        "singular_capability_name": "post",
+        "plural_capability_name": "posts",
+        "supports": [
+            "title",
+            "custom-fields"
+        ],
+        "taxonomies": "",
+        "has_archive": false,
+        "has_archive_slug": "",
+        "rewrite": {
+            "permalink_rewrite": "post_type_key",
+            "with_front": "1",
+            "feeds": "0",
+            "pages": "1"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "can_export": true,
+        "delete_with_user": false,
+        "register_meta_box_cb": "",
+        "enter_title_here": ""
+    },
+    {
+        "key": "post_type_65ed7e069c28a",
+        "title": "Testimonials",
+        "menu_order": 0,
+        "active": true,
+        "post_type": "testimonial",
+        "advanced_configuration": true,
+        "import_source": "",
+        "import_date": "",
+        "labels": {
+            "name": "Testimonials",
+            "singular_name": "Testimonial",
+            "menu_name": "Testimonials",
+            "all_items": "All Testimonials",
+            "edit_item": "Edit Testimonial",
+            "view_item": "View Testimonial",
+            "view_items": "View Testimonials",
+            "add_new_item": "Add New Testimonial",
+            "add_new": "Add New Testimonial",
+            "new_item": "New Testimonial",
+            "parent_item_colon": "Parent Testimonial:",
+            "search_items": "Search Testimonials",
+            "not_found": "No Testimonials found",
+            "not_found_in_trash": "No Testimonials found in Trash",
+            "archives": "Testimonial Archives",
+            "attributes": "Testimonial Attributes",
+            "featured_image": "",
+            "set_featured_image": "",
+            "remove_featured_image": "",
+            "use_featured_image": "",
+            "insert_into_item": "Insert into testimonial",
+            "uploaded_to_this_item": "Uploaded to this testimonial",
+            "filter_items_list": "Filter Testimonials list",
+            "filter_by_date": "Filter testi by date",
+            "items_list_navigation": "Testimonials list navigation",
+            "items_list": "Testimonials list",
+            "item_published": "Testimonial published.",
+            "item_published_privately": "Testimonial published privately.",
+            "item_reverted_to_draft": "Testimonial reverted to draft.",
+            "item_scheduled": "Testimonial scheduled.",
+            "item_updated": "Testimonial updated.",
+            "item_link": "Testimonial Link",
+            "item_link_description": "A link to a testimonial."
+        },
+        "description": "",
+        "public": true,
+        "hierarchical": false,
+        "exclude_from_search": false,
+        "publicly_queryable": true,
+        "show_ui": true,
+        "show_in_menu": true,
+        "admin_menu_parent": "",
+        "show_in_admin_bar": true,
+        "show_in_nav_menus": true,
+        "show_in_rest": true,
+        "rest_base": "testimonials",
+        "rest_namespace": "wp\/v2",
+        "rest_controller_class": "WP_REST_Posts_Controller",
+        "menu_position": "",
+        "menu_icon": "dashicons-format-quote",
+        "rename_capabilities": false,
+        "singular_capability_name": "post",
+        "plural_capability_name": "posts",
+        "supports": [
+            "title",
+            "custom-fields"
+        ],
+        "taxonomies": "",
+        "has_archive": false,
+        "has_archive_slug": "",
+        "rewrite": {
+            "permalink_rewrite": "post_type_key",
+            "with_front": "1",
+            "feeds": "0",
+            "pages": "1"
+        },
+        "query_var": "post_type_key",
+        "query_var_name": "",
+        "can_export": true,
+        "delete_with_user": false,
+        "register_meta_box_cb": "",
+        "enter_title_here": ""
+    }
+]
